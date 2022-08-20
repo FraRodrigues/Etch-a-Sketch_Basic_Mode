@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff2030;
+}
+
+#title, 
+#description,
+#btn,
+#main {
+    align-self: center;
+}
+
+#title, 
+#description {
+    margin: 0.3em 0.3em 0.3em 0.3em;
+    color: yellow;
+}
+
+#btn,
+#main {
+    margin: 0.6em 0.6em 0.6em 0.6em;
+}
+
+#title {
+    font-size: 2em;
+    font-weight: 600;
+} 
+
+#description {
+    font-size: 1.3em;
+}
+
+#main {
+    border: 2px solid yellow;
+    width: 75vw;
+    height: 75vh
+}
