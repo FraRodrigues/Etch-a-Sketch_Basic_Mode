@@ -35,5 +35,11 @@ body {
 #main {
     border: 2px solid yellow;
     width: 75vw;
-    height: 75vh
+    height: 75vh;
+    display: flex;
 }
+
+/*#main div {
+    box-sizing: border-box;
+    background-color: white;
+} */
